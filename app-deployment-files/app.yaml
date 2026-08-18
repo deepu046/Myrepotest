@@ -1,7 +1,7 @@
 apiVersion: apps/v1
-kind: Deployment
+kind: stateless
 metadata:
-  name: nginx-demo
+  name: nginx-demo1
 spec:
   replicas: 2
   selector:
